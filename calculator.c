@@ -8,6 +8,7 @@
 #define bool char
 #define true 1
 #define false 0
+#define Js 2
 
 #define PI 3.141592653589793
 
@@ -33,6 +34,8 @@ typedef enum
 	argsep,
 	invalid
 } Symbol;
+
+//수정 할 수 있다
 
 struct Preferences
 {
